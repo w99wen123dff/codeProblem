@@ -9,4 +9,6 @@
 import Foundation
 
 print("Hello, World!")
-
+let p1 = twoSum();
+let result = p1.twoSum([7, 7, 2, 11, 15], 9);
+print("result = \(result)");
