@@ -9,9 +9,12 @@
 import Foundation
 
 print("Hello, World!")
-let p1 = twoSum();
-let result = p1.twoSum([7, 7, 2, 11, 15], 9);
+let result = TwoSum().twoSum([7, 7, 2, 11, 15], 9);
 print("result = \(result)");
 
-let result2 = reverse().reverse(123);
+let result2 = Reverse().reverse(123);
 print("result = \(result2)");
+
+
+let result3 = Solution().isPalindrome(121);
+print("result = \(result3)");
