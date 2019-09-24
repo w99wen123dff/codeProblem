@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C268A888233A800D005986DF /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = C268A887233A800D005986DF /* RomanToInteger.swift */; };
 		C2B6FBB5232EBAAE00D9C813 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B6FBB4232EBAAE00D9C813 /* main.swift */; };
 		C2B6FBBC232EBB7600D9C813 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B6FBBB232EBB7600D9C813 /* TwoSum.swift */; };
 		C2F80C782330347A00FF33B2 /* Reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F80C772330347A00FF33B2 /* Reverse.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C268A887233A800D005986DF /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
 		C2B6FBB1232EBAAE00D9C813 /* codeProblem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = codeProblem; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2B6FBB4232EBAAE00D9C813 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C2B6FBBB232EBB7600D9C813 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				C2B6FBBB232EBB7600D9C813 /* TwoSum.swift */,
 				C2F80C772330347A00FF33B2 /* Reverse.swift */,
 				C2F80C7923303E0800FF33B2 /* Solution.swift */,
+				C268A887233A800D005986DF /* RomanToInteger.swift */,
 			);
 			path = codeProblem;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 				C2B6FBBC232EBB7600D9C813 /* TwoSum.swift in Sources */,
 				C2F80C7A23303E0800FF33B2 /* Solution.swift in Sources */,
 				C2B6FBB5232EBAAE00D9C813 /* main.swift in Sources */,
+				C268A888233A800D005986DF /* RomanToInteger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
