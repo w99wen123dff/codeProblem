@@ -22,7 +22,8 @@ print("result = \(result3)");
 let result4 = RomanToInteger().romanToInt("MCMXCIV");
 print("result = \(result4)");
 
-
+let result5 = LongestCommonPrefix().longestCommonPrefix(["flower","flow","flight"]);
+print("result = \(result5)");
 
 for i in 0..<5{
     print("i = \(i)");
