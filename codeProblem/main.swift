@@ -76,20 +76,23 @@ import Foundation
 //let tmp4 = LetterCombinations();
 //print(tmp4.letterCombinations("2345"));
 
-func buildLinks() -> ListNode? {
-    let values = [1,2,3,4,5,6,7,8,9,10];
-    let head = ListNode(values[0]);
-    var formerNode:ListNode? = head;
-    for value in values[1 ..< values.count] {
-        let node = ListNode(value);
-        if let formerNode2 = formerNode {
-            formerNode2.next = node;
-        }
-        formerNode = node;
-    }
-    return head;
-}
+//func buildLinks() -> ListNode? {
+//    let values = [1,2,3,4,5,6,7,8,9,10];
+//    let head = ListNode(values[0]);
+//    var formerNode:ListNode? = head;
+//    for value in values[1 ..< values.count] {
+//        let node = ListNode(value);
+//        if let formerNode2 = formerNode {
+//            formerNode2.next = node;
+//        }
+//        formerNode = node;
+//    }
+//    return head;
+//}
 
-let tmp5 = RemoveNthFromEnd();
-tmp5.removeNthFromEnd(buildLinks(), 7);
+//let tmp5 = RemoveNthFromEnd();
+//tmp5.removeNthFromEnd(buildLinks(), 7);
+
+let tmp6 = GenerateParenthesis();
+print(tmp6.generateParenthesis(3));
 
