@@ -35,6 +35,7 @@ public class ListNode {
         self.next = nil
     }
 }
+
 class ListNodeSum: NSObject {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         let result: ListNode? = addTwoNumbers2(l1, l2, 0);
