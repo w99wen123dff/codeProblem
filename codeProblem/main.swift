@@ -8,6 +8,29 @@
 
 import Foundation
 
+func buildLinks() -> ListNode? {
+    let values = [1,2,3,4,5,6,7,8,9,10];
+    let head = ListNode(values[0]);
+    var formerNode:ListNode? = head;
+    for value in values[1 ..< values.count] {
+        let node = ListNode(value);
+        if let formerNode2 = formerNode {
+            formerNode2.next = node;
+        }
+        formerNode = node;
+    }
+    return head;
+}
+
+
+func printLinkNode(_ str:String, _ head:ListNode?) {
+    if let head2 = head {
+        printLinkNode("\(str.count > 0 ? "\(str) -> " : "")\(head2.val)", head2.next);
+    } else {
+        print(str);
+    }
+}
+
 //print("Hello, World!")
 //let result = TwoSum().twoSum([7, 7, 2, 11, 15], 9);
 //print("result = \(result)");
@@ -76,23 +99,41 @@ import Foundation
 //let tmp4 = LetterCombinations();
 //print(tmp4.letterCombinations("2345"));
 
-//func buildLinks() -> ListNode? {
-//    let values = [1,2,3,4,5,6,7,8,9,10];
-//    let head = ListNode(values[0]);
-//    var formerNode:ListNode? = head;
-//    for value in values[1 ..< values.count] {
-//        let node = ListNode(value);
-//        if let formerNode2 = formerNode {
-//            formerNode2.next = node;
-//        }
-//        formerNode = node;
-//    }
-//    return head;
-//}
-
 //let tmp5 = RemoveNthFromEnd();
 //tmp5.removeNthFromEnd(buildLinks(), 7);
 
-let tmp6 = GenerateParenthesis();
-print(tmp6.generateParenthesis(3));
+//let tmp6 = GenerateParenthesis();
+//print(tmp6.generateParenthesis(3));
 
+let tmp7 = SwapPairs();
+var headNode:ListNode? = buildLinks();
+headNode = tmp7.swapPairs(headNode);
+printLinkNode("", headNode);
+
+
+let tmp8 = DivideSimulator();
+//print(tmp8.divide(Int(Int32.min), -1));
+//print(tmp8.divide(Int(Int32.max), 1));
+//
+//var a = 8;
+//var b = 1;
+//print(tmp8.divide(a, b));
+//print(tmp8.divide(a, -b));
+//print(tmp8.divide(-a, b));
+//print(tmp8.divide(-a, -b));
+//
+//a = 9;
+//b = 2;
+//print(tmp8.divide(a, b));
+//print(tmp8.divide(a, -b));
+//print(tmp8.divide(-a, b));
+//print(tmp8.divide(-a, -b));
+
+print(tmp8.divide(-2147483648, -1));
+
+do {
+    let tmp9 = NextPermutation();
+    var nums = [1,3,2];
+    tmp9.nextPermutation(&nums);
+    print(nums);
+}

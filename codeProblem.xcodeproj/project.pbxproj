@@ -19,6 +19,9 @@
 		FC7E180D23922B11008DFEED /* LetterCombinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E180C23922B11008DFEED /* LetterCombinations.swift */; };
 		FC7E180F23928EA3008DFEED /* RemoveNthFromEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E180E23928EA3008DFEED /* RemoveNthFromEnd.swift */; };
 		FC7E18112392C1B9008DFEED /* GenerateParenthesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E18102392C1B9008DFEED /* GenerateParenthesis.swift */; };
+		FC7E181323956B23008DFEED /* SwapPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E181223956B23008DFEED /* SwapPairs.swift */; };
+		FC7E18152395714D008DFEED /* DivideSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E18142395714D008DFEED /* DivideSimulator.swift */; };
+		FC7E181723958728008DFEED /* NextPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E181623958728008DFEED /* NextPermutation.swift */; };
 		FCD17622238ECF53002C5A2C /* ListNodeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17621238ECF53002C5A2C /* ListNodeSum.swift */; };
 		FCD17624238ED562002C5A2C /* NoRepeatLongestSubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17623238ED562002C5A2C /* NoRepeatLongestSubString.swift */; };
 		FCD17626238EFC00002C5A2C /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17625238EFC00002C5A2C /* LongestPalindrome.swift */; };
@@ -50,6 +53,9 @@
 		FC7E180C23922B11008DFEED /* LetterCombinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterCombinations.swift; sourceTree = "<group>"; };
 		FC7E180E23928EA3008DFEED /* RemoveNthFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthFromEnd.swift; sourceTree = "<group>"; };
 		FC7E18102392C1B9008DFEED /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
+		FC7E181223956B23008DFEED /* SwapPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapPairs.swift; sourceTree = "<group>"; };
+		FC7E18142395714D008DFEED /* DivideSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DivideSimulator.swift; sourceTree = "<group>"; };
+		FC7E181623958728008DFEED /* NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPermutation.swift; sourceTree = "<group>"; };
 		FCD17621238ECF53002C5A2C /* ListNodeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNodeSum.swift; sourceTree = "<group>"; };
 		FCD17623238ED562002C5A2C /* NoRepeatLongestSubString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoRepeatLongestSubString.swift; sourceTree = "<group>"; };
 		FCD17625238EFC00002C5A2C /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 				FC7E180C23922B11008DFEED /* LetterCombinations.swift */,
 				FC7E180E23928EA3008DFEED /* RemoveNthFromEnd.swift */,
 				FC7E18102392C1B9008DFEED /* GenerateParenthesis.swift */,
+				FC7E181223956B23008DFEED /* SwapPairs.swift */,
+				FC7E18142395714D008DFEED /* DivideSimulator.swift */,
+				FC7E181623958728008DFEED /* NextPermutation.swift */,
 			);
 			path = codeProblem;
 			sourceTree = "<group>";
@@ -164,11 +173,14 @@
 				C2F80C782330347A00FF33B2 /* Reverse.swift in Sources */,
 				C268A88A233BEF9A005986DF /* LongestCommonPrefix.swift in Sources */,
 				FC7E180F23928EA3008DFEED /* RemoveNthFromEnd.swift in Sources */,
+				FC7E181723958728008DFEED /* NextPermutation.swift in Sources */,
 				FC7E18112392C1B9008DFEED /* GenerateParenthesis.swift in Sources */,
+				FC7E181323956B23008DFEED /* SwapPairs.swift in Sources */,
 				C2B6FBBC232EBB7600D9C813 /* TwoSum.swift in Sources */,
 				FCD17622238ECF53002C5A2C /* ListNodeSum.swift in Sources */,
 				FC7E180923917158008DFEED /* ThreeSum.swift in Sources */,
 				FC7E180723902EF3008DFEED /* IntToRoman.swift in Sources */,
+				FC7E18152395714D008DFEED /* DivideSimulator.swift in Sources */,
 				FC7E180B2391830B008DFEED /* MergeSort.swift in Sources */,
 				FCD17624238ED562002C5A2C /* NoRepeatLongestSubString.swift in Sources */,
 				FCD17626238EFC00002C5A2C /* LongestPalindrome.swift in Sources */,
