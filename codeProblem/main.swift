@@ -105,13 +105,13 @@ func printLinkNode(_ str:String, _ head:ListNode?) {
 //let tmp6 = GenerateParenthesis();
 //print(tmp6.generateParenthesis(3));
 
-let tmp7 = SwapPairs();
-var headNode:ListNode? = buildLinks();
-headNode = tmp7.swapPairs(headNode);
-printLinkNode("", headNode);
+//let tmp7 = SwapPairs();
+//var headNode:ListNode? = buildLinks();
+//headNode = tmp7.swapPairs(headNode);
+//printLinkNode("", headNode);
 
 
-let tmp8 = DivideSimulator();
+//let tmp8 = DivideSimulator();
 //print(tmp8.divide(Int(Int32.min), -1));
 //print(tmp8.divide(Int(Int32.max), 1));
 //
@@ -129,11 +129,25 @@ let tmp8 = DivideSimulator();
 //print(tmp8.divide(-a, b));
 //print(tmp8.divide(-a, -b));
 
-print(tmp8.divide(-2147483648, -1));
+//print(tmp8.divide(-2147483648, -1));
+
+//do {
+//    let tmp9 = NextPermutation();
+//    var nums = [1,3,2];
+//    tmp9.nextPermutation(&nums);
+//    print(nums);
+//}
+
+//do {
+//    let tmp = ArraySearchNoRepeatNum();
+//    let nums = [4,5,-2,-1,0,1,2];
+//    let target = 1;
+//    print(tmp.search(nums, target));
+//}
 
 do {
-    let tmp9 = NextPermutation();
-    var nums = [1,3,2];
-    tmp9.nextPermutation(&nums);
-    print(nums);
+    let tmp = ArraySearchRange();
+    let nums = [5,7,7,8,8,10];
+    let target = 8;
+    print(tmp.searchRange(nums, target));
 }
