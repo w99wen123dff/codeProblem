@@ -24,6 +24,9 @@
 		FC7E181723958728008DFEED /* NextPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E181623958728008DFEED /* NextPermutation.swift */; };
 		FC7E181E2396CE14008DFEED /* ArraySearchNoRepeatNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E181D2396CE14008DFEED /* ArraySearchNoRepeatNum.swift */; };
 		FC9869C62396DE8300C4AFF7 /* ArraySearchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9869C52396DE8300C4AFF7 /* ArraySearchRange.swift */; };
+		FCB1A28223A2A5FD008ED5B5 /* TestIsValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A28123A2A5FD008ED5B5 /* TestIsValidSudoku.swift */; };
+		FCB1A28423A3D6BD008ED5B5 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A28323A3D6BD008ED5B5 /* CombinationSum.swift */; };
+		FCB1A28623A3EE14008ED5B5 /* CombinationSumNoRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A28523A3EE14008ED5B5 /* CombinationSumNoRepeat.swift */; };
 		FCD17622238ECF53002C5A2C /* ListNodeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17621238ECF53002C5A2C /* ListNodeSum.swift */; };
 		FCD17624238ED562002C5A2C /* NoRepeatLongestSubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17623238ED562002C5A2C /* NoRepeatLongestSubString.swift */; };
 		FCD17626238EFC00002C5A2C /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17625238EFC00002C5A2C /* LongestPalindrome.swift */; };
@@ -60,6 +63,9 @@
 		FC7E181623958728008DFEED /* NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPermutation.swift; sourceTree = "<group>"; };
 		FC7E181D2396CE14008DFEED /* ArraySearchNoRepeatNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySearchNoRepeatNum.swift; sourceTree = "<group>"; };
 		FC9869C52396DE8300C4AFF7 /* ArraySearchRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySearchRange.swift; sourceTree = "<group>"; };
+		FCB1A28123A2A5FD008ED5B5 /* TestIsValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIsValidSudoku.swift; sourceTree = "<group>"; };
+		FCB1A28323A3D6BD008ED5B5 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
+		FCB1A28523A3EE14008ED5B5 /* CombinationSumNoRepeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumNoRepeat.swift; sourceTree = "<group>"; };
 		FCD17621238ECF53002C5A2C /* ListNodeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNodeSum.swift; sourceTree = "<group>"; };
 		FCD17623238ED562002C5A2C /* NoRepeatLongestSubString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoRepeatLongestSubString.swift; sourceTree = "<group>"; };
 		FCD17625238EFC00002C5A2C /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 				FC7E181623958728008DFEED /* NextPermutation.swift */,
 				FC7E181D2396CE14008DFEED /* ArraySearchNoRepeatNum.swift */,
 				FC9869C52396DE8300C4AFF7 /* ArraySearchRange.swift */,
+				FCB1A28123A2A5FD008ED5B5 /* TestIsValidSudoku.swift */,
+				FCB1A28323A3D6BD008ED5B5 /* CombinationSum.swift */,
+				FCB1A28523A3EE14008ED5B5 /* CombinationSumNoRepeat.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -184,6 +193,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB1A28623A3EE14008ED5B5 /* CombinationSumNoRepeat.swift in Sources */,
 				C2F80C782330347A00FF33B2 /* Reverse.swift in Sources */,
 				C268A88A233BEF9A005986DF /* LongestCommonPrefix.swift in Sources */,
 				FC7E180F23928EA3008DFEED /* RemoveNthFromEnd.swift in Sources */,
@@ -197,6 +207,8 @@
 				FC7E180723902EF3008DFEED /* IntToRoman.swift in Sources */,
 				FC7E18152395714D008DFEED /* DivideSimulator.swift in Sources */,
 				FC7E180B2391830B008DFEED /* MergeSort.swift in Sources */,
+				FCB1A28423A3D6BD008ED5B5 /* CombinationSum.swift in Sources */,
+				FCB1A28223A2A5FD008ED5B5 /* TestIsValidSudoku.swift in Sources */,
 				FCD17624238ED562002C5A2C /* NoRepeatLongestSubString.swift in Sources */,
 				FCD17626238EFC00002C5A2C /* LongestPalindrome.swift in Sources */,
 				FC9869C62396DE8300C4AFF7 /* ArraySearchRange.swift in Sources */,

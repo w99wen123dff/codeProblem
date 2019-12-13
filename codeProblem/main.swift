@@ -145,9 +145,34 @@ func printLinkNode(_ str:String, _ head:ListNode?) {
 //    print(tmp.search(nums, target));
 //}
 
+//do {
+//    let tmp = ArraySearchRange();
+//    let nums = [5,7,7,8,8,10];
+//    let target = 8;
+//    print(tmp.searchRange(nums, target));
+//}
+
+
+//do {
+//    let tmp = TestIsValidSudoku();
+//    let nums:[[Character]] = [
+//      ["5","3",".",".","7",".",".",".","."],
+//      ["6",".",".","1","9","5",".",".","."],
+//      [".","9","8",".",".",".",".","6","."],
+//      ["8",".",".",".","6",".",".",".","3"],
+//      ["4",".",".","8",".","3",".",".","1"],
+//      ["7",".",".",".","2",".",".",".","6"],
+//      [".","6",".",".",".",".","2","8","."],
+//      [".",".",".","4","1","9",".",".","5"],
+//      [".",".",".",".","8",".",".","7","9"]
+//    ];
+//    print(tmp.isValidSudoku(nums));
+//}
+
+
 do {
-    let tmp = ArraySearchRange();
-    let nums = [5,7,7,8,8,10];
-    let target = 8;
-    print(tmp.searchRange(nums, target));
+    let tmp = CombinationSum();
+    let nums = [2,3,6,7];
+    let target = 7;
+    print(tmp.combinationSum(nums, target));
 }
