@@ -13,6 +13,13 @@
 		C2B6FBBC232EBB7600D9C813 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B6FBBB232EBB7600D9C813 /* TwoSum.swift */; };
 		C2F80C782330347A00FF33B2 /* Reverse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F80C772330347A00FF33B2 /* Reverse.swift */; };
 		C2F80C7A23303E0800FF33B2 /* Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F80C7923303E0800FF33B2 /* Solution.swift */; };
+		FC32DD7023BA678900D30AE0 /* CombinationSumV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DD6F23BA678900D30AE0 /* CombinationSumV2.swift */; };
+		FC32DD7223BA6BFD00D30AE0 /* Permute.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DD7123BA6BFD00D30AE0 /* Permute.swift */; };
+		FC32DD7423BA73B800D30AE0 /* PermuteUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DD7323BA73B800D30AE0 /* PermuteUnique.swift */; };
+		FC32DD7623BCA16900D30AE0 /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DD7523BCA16900D30AE0 /* GroupAnagrams.swift */; };
+		FC32DD7823BCBA2000D30AE0 /* CharacterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DD7723BCBA2000D30AE0 /* CharacterExtension.swift */; };
+		FC32DD7A23BCFCCF00D30AE0 /* MyPow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DD7923BCFCCF00D30AE0 /* MyPow.swift */; };
+		FC32DD7C23BCFD2800D30AE0 /* Multiply.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC32DD7B23BCFD2800D30AE0 /* Multiply.swift */; };
 		FC7E180723902EF3008DFEED /* IntToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E180623902EF3008DFEED /* IntToRoman.swift */; };
 		FC7E180923917158008DFEED /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E180823917158008DFEED /* ThreeSum.swift */; };
 		FC7E180B2391830B008DFEED /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7E180A2391830B008DFEED /* MergeSort.swift */; };
@@ -26,7 +33,6 @@
 		FC9869C62396DE8300C4AFF7 /* ArraySearchRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9869C52396DE8300C4AFF7 /* ArraySearchRange.swift */; };
 		FCB1A28223A2A5FD008ED5B5 /* TestIsValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A28123A2A5FD008ED5B5 /* TestIsValidSudoku.swift */; };
 		FCB1A28423A3D6BD008ED5B5 /* CombinationSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A28323A3D6BD008ED5B5 /* CombinationSum.swift */; };
-		FCB1A28623A3EE14008ED5B5 /* CombinationSumNoRepeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB1A28523A3EE14008ED5B5 /* CombinationSumNoRepeat.swift */; };
 		FCD17622238ECF53002C5A2C /* ListNodeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17621238ECF53002C5A2C /* ListNodeSum.swift */; };
 		FCD17624238ED562002C5A2C /* NoRepeatLongestSubString.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17623238ED562002C5A2C /* NoRepeatLongestSubString.swift */; };
 		FCD17626238EFC00002C5A2C /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD17625238EFC00002C5A2C /* LongestPalindrome.swift */; };
@@ -52,6 +58,13 @@
 		C2B6FBBB232EBB7600D9C813 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		C2F80C772330347A00FF33B2 /* Reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reverse.swift; sourceTree = "<group>"; };
 		C2F80C7923303E0800FF33B2 /* Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solution.swift; sourceTree = "<group>"; };
+		FC32DD6F23BA678900D30AE0 /* CombinationSumV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumV2.swift; sourceTree = "<group>"; };
+		FC32DD7123BA6BFD00D30AE0 /* Permute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permute.swift; sourceTree = "<group>"; };
+		FC32DD7323BA73B800D30AE0 /* PermuteUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermuteUnique.swift; sourceTree = "<group>"; };
+		FC32DD7523BCA16900D30AE0 /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
+		FC32DD7723BCBA2000D30AE0 /* CharacterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterExtension.swift; sourceTree = "<group>"; };
+		FC32DD7923BCFCCF00D30AE0 /* MyPow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPow.swift; sourceTree = "<group>"; };
+		FC32DD7B23BCFD2800D30AE0 /* Multiply.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiply.swift; sourceTree = "<group>"; };
 		FC7E180623902EF3008DFEED /* IntToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRoman.swift; sourceTree = "<group>"; };
 		FC7E180823917158008DFEED /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		FC7E180A2391830B008DFEED /* MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
@@ -65,7 +78,6 @@
 		FC9869C52396DE8300C4AFF7 /* ArraySearchRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraySearchRange.swift; sourceTree = "<group>"; };
 		FCB1A28123A2A5FD008ED5B5 /* TestIsValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestIsValidSudoku.swift; sourceTree = "<group>"; };
 		FCB1A28323A3D6BD008ED5B5 /* CombinationSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSum.swift; sourceTree = "<group>"; };
-		FCB1A28523A3EE14008ED5B5 /* CombinationSumNoRepeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinationSumNoRepeat.swift; sourceTree = "<group>"; };
 		FCD17621238ECF53002C5A2C /* ListNodeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNodeSum.swift; sourceTree = "<group>"; };
 		FCD17623238ED562002C5A2C /* NoRepeatLongestSubString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoRepeatLongestSubString.swift; sourceTree = "<group>"; };
 		FCD17625238EFC00002C5A2C /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
@@ -106,6 +118,7 @@
 				C268A889233BEF9A005986DF /* LongestCommonPrefix.swift */,
 				C2B6FBBB232EBB7600D9C813 /* TwoSum.swift */,
 				C2F80C772330347A00FF33B2 /* Reverse.swift */,
+				FC32DD7723BCBA2000D30AE0 /* CharacterExtension.swift */,
 				C2F80C7923303E0800FF33B2 /* Solution.swift */,
 			);
 			path = codeProblem;
@@ -131,7 +144,12 @@
 				FC9869C52396DE8300C4AFF7 /* ArraySearchRange.swift */,
 				FCB1A28123A2A5FD008ED5B5 /* TestIsValidSudoku.swift */,
 				FCB1A28323A3D6BD008ED5B5 /* CombinationSum.swift */,
-				FCB1A28523A3EE14008ED5B5 /* CombinationSumNoRepeat.swift */,
+				FC32DD6F23BA678900D30AE0 /* CombinationSumV2.swift */,
+				FC32DD7123BA6BFD00D30AE0 /* Permute.swift */,
+				FC32DD7323BA73B800D30AE0 /* PermuteUnique.swift */,
+				FC32DD7523BCA16900D30AE0 /* GroupAnagrams.swift */,
+				FC32DD7B23BCFD2800D30AE0 /* Multiply.swift */,
+				FC32DD7923BCFCCF00D30AE0 /* MyPow.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -193,9 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCB1A28623A3EE14008ED5B5 /* CombinationSumNoRepeat.swift in Sources */,
 				C2F80C782330347A00FF33B2 /* Reverse.swift in Sources */,
+				FC32DD7623BCA16900D30AE0 /* GroupAnagrams.swift in Sources */,
 				C268A88A233BEF9A005986DF /* LongestCommonPrefix.swift in Sources */,
+				FC32DD7223BA6BFD00D30AE0 /* Permute.swift in Sources */,
 				FC7E180F23928EA3008DFEED /* RemoveNthFromEnd.swift in Sources */,
 				FC7E181723958728008DFEED /* NextPermutation.swift in Sources */,
 				FC7E18112392C1B9008DFEED /* GenerateParenthesis.swift in Sources */,
@@ -206,15 +225,20 @@
 				FC7E180923917158008DFEED /* ThreeSum.swift in Sources */,
 				FC7E180723902EF3008DFEED /* IntToRoman.swift in Sources */,
 				FC7E18152395714D008DFEED /* DivideSimulator.swift in Sources */,
+				FC32DD7423BA73B800D30AE0 /* PermuteUnique.swift in Sources */,
+				FC32DD7823BCBA2000D30AE0 /* CharacterExtension.swift in Sources */,
 				FC7E180B2391830B008DFEED /* MergeSort.swift in Sources */,
 				FCB1A28423A3D6BD008ED5B5 /* CombinationSum.swift in Sources */,
 				FCB1A28223A2A5FD008ED5B5 /* TestIsValidSudoku.swift in Sources */,
 				FCD17624238ED562002C5A2C /* NoRepeatLongestSubString.swift in Sources */,
+				FC32DD7023BA678900D30AE0 /* CombinationSumV2.swift in Sources */,
 				FCD17626238EFC00002C5A2C /* LongestPalindrome.swift in Sources */,
 				FC9869C62396DE8300C4AFF7 /* ArraySearchRange.swift in Sources */,
 				C2F80C7A23303E0800FF33B2 /* Solution.swift in Sources */,
+				FC32DD7C23BCFD2800D30AE0 /* Multiply.swift in Sources */,
 				C2B6FBB5232EBAAE00D9C813 /* main.swift in Sources */,
 				C268A888233A800D005986DF /* RomanToInteger.swift in Sources */,
+				FC32DD7A23BCFCCF00D30AE0 /* MyPow.swift in Sources */,
 				FC7E180D23922B11008DFEED /* LetterCombinations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

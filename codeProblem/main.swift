@@ -176,3 +176,64 @@ do {
     let target = 7;
     print(tmp.combinationSum(nums, target));
 }
+
+
+do {
+    @propertyWrapper
+    struct SmallNumber {
+        private var number = 0
+        var projectedValue = false
+        var wrappedValue: Int {
+            get { return number }
+            set {
+                if newValue > 12 {
+                    number = 12
+                    projectedValue = true
+                } else {
+                    number = newValue
+                    projectedValue = false
+                }
+            }
+        }
+    }
+    struct SomeStructure {
+        @SmallNumber var someNumber: Int
+    }
+    var someStructure = SomeStructure()
+    
+    someStructure.someNumber = 4
+    print(someStructure.$someNumber)
+    // 打印 "false"
+    
+    someStructure.someNumber = 55
+    print(someStructure.$someNumber)
+    // 打印 "true"
+}
+
+//do {
+//    let tmp = CombinationSumV2();
+//    let nums = [10,1,2,7,6,1,5];
+//    let target = 8;
+//    print(tmp.combinationSum2(nums, target));
+//}
+
+//do {
+//    let tmp = Permute();
+//    print(tmp.permute([1,2,3]));
+//}
+
+//do {
+//    let temp = PermuteUnique();
+//    print(temp.permuteUnique([1,1,2]));
+//}
+
+//do {
+//    let temp = GroupAnagrams();
+//    print(temp.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]));
+//}
+
+
+do {
+    let temp = Multiply();
+    print(temp.multiply("123", "456"));
+}

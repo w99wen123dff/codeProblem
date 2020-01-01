@@ -42,11 +42,11 @@ class CombinationSum: NSObject {
     func combinationSum(_ candidates: [Int], _ target: Int) -> [[Int]] {
         var result:[[Int]] = [];
         let sortedCandidates = candidates.sorted();
-        combinationSumV2([], 0, sortedCandidates, target, &result);
+        backtrack([], 0, sortedCandidates, target, &result);
         return result;
     }
     
-    func combinationSumV2(_ subArray:[Int], _ legalIndexs:Int,_ candidates: [Int], _ target: Int, _ result:inout [[Int]]) {
+    private func backtrack(_ subArray:[Int], _ legalIndexs:Int,_ candidates: [Int], _ target: Int, _ result:inout [[Int]]) {
         if target == 0 {
             result.append(subArray);
             return;
@@ -58,7 +58,7 @@ class CombinationSum: NSObject {
         var sum = 0;
         var subArray2:[Int] = Array(subArray);
         while sum <= target {
-            combinationSumV2(subArray2, legalIndexs + 1, candidates, target - sum, &result);
+            backtrack(subArray2, legalIndexs + 1, candidates, target - sum, &result);
             subArray2.append(candidates[legalIndexs]);
             sum += candidates[legalIndexs];
         }
